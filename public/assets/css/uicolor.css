@@ -1,0 +1,38 @@
+@import url('rootcolors.css');
+
+.btn-primary , .btn-info , .btn-success{
+    background-color: var(--PRIMARY_COLOR) !important;
+    border-color: var(--SUCCESS_COLOR) !important;
+}
+.custom-file-container label{
+    color: var(--PRIMARY_COLOR) !important;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    background-color: var(--PRIMARY_COLOR) !important;
+    border-color: var(--SUCCESS_COLOR) !important;
+}
+.page-item.active .page-link {
+    background-color: var(--SUCCESS_COLOR) !important;
+}
+.table > thead > tr > th {
+    color: var(--HEADER_COLOR) !important;
+}
+.btn-outline-success {
+    border: 1px solid var(--SUCCESS_COLOR) !important;
+    color: var(--SUCCESS_COLOR) !important;
+    background-color: transparent;
+    box-shadow: none;
+}
+.badge-primary{
+    background-color: var(--SUCCESS_COLOR) !important;
+}
+.form-control:focus{
+    border-color: var(--SUCCESS_COLOR) !important;
+}
+.common-menu-heading a{
+    color: var(--SUCCESS_COLOR) !important;
+}
+.error{
+    color: red !important;
+}

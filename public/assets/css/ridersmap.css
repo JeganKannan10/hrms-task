@@ -1,0 +1,31 @@
+    #rider_details_card {
+        position: absolute;
+        top: 5rem;
+        left: 3rem;
+        width: max-content;
+        min-height: 390px;
+        padding: 1rem;
+        z-index: 999;
+    }
+
+    .rider {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .rider:hover {
+        background-color: #d3d3d3;
+        cursor: pointer;
+    }
+
+    .selected-rider {
+        background-color: #d3d3d3;
+        cursor: pointer;
+    }
+
+  .no-driver{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
